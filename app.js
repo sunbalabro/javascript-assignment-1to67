@@ -662,83 +662,10 @@
 
 // Task no 1
 
-// var img = document.createElement("img");
-// img.id = "myTag";
-// img.src = "./1.jpg";
-// img.alt = "Salar de Uyuni, Bolivia";
-// img.style.width = "100%";
-// img.style.maxWidth = "300px"
-// img.style.borderRadius = "5px";
-// img.style.cursor = "pointer";
-// img.style.transition = "0.3s";
-
-
-// var modal = document.createElement("div");
-// modal.id = "myModal";
-// modal.className = "modal";
-// modal.style.display = "none";
-// modal.style.position = "fixed";
-// modal.zIndex = "1";
-// modal.style.paddingTop = "100px";
-// modal.style.left = "0";
-// modal.style.top = "0";
-// modal.style.width = "100%";
-// modal.style.height = "100%";
-// modal.style.backgroundColor = "rgb(0,0,0)";
-// modal.style.backgroundColor = "rgba(0,0,0,0.9)";
-
-// var span = document.createElement("span");
-// span.className = "close";
-// span.innerHTML = "&times;";
-// span.style.position = "absolute";
-// span.style.top = "15px";
-// span.style.right = "35px";
-// span.style.fontSize = "40px";
-// span.style.fontWeight = "bold";
-// span.style.transition = "0.3s";
-
-
-// var img2 = document.createElement("img");
-// img2.className = "modal-content";
-// img2.id = "img01";
-// img2.style.margin = "auto";
-// img2.style.display = "block";
-// img2.style.width = "80%";
-// img2.style.maxWidth = "700px";
-// img2.style.animationName = "zoom";
-// img2.style.animationDuration = "0.6s";
-
-// var caption = document.createElement("div");
-// caption.id = "caption";
-// caption.style.margin = "auto";
-// caption.style.display = "block";
-// caption.style.width = "80%";
-// caption.style.maxWidth = "700px";
-// caption.style.textAlign = "center";
-// caption.style.color = "#ccc";
-// caption.style.padding = "10px 0";
-// caption.style.height = "150px";
-// caption.style.animationName = "zoom";
-// caption.style.animationDuration = "0.6s";
-
-
-
-// modal.appendChild(span);
-// modal.appendChild(img2);
-// modal.appendChild(caption);
-
-// img.onclick = function(){
-//  modal.style.display = "block";
-//  img2.src = "./1.jpg";
-//  caption.innerHTML = "Salar de Uyuni, Bolivia";
-// }
-
-
-
-
-// document.getElementsByTagName('body')[0].appendChild(img)
-
-
+function showModal(e) {
+    var modal = document.getElementById("modalImage")
+    modal.src = e.src;    
+}
 // Task no 2 
 
 // var para = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum ipsa quae quod officia sapiente aut velit tempora, nobis esse?"
@@ -784,7 +711,6 @@
 
 
  
-
 
 
 
